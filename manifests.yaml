@@ -28,3 +28,22 @@ spec:
   ports:
   - port: 80
     targetPort: 80
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app1
+data:
+  name: hodi
+
+---
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: shhhh
+type: Opaque
+data:
+  password: cGFzc3dvcmQK
+
+
