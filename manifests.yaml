@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: calc
-        image: nginx
+        image: nginx:stable
         ports:
         - containerPort: 80
 ---
