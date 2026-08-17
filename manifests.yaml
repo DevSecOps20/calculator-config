@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: calc
 spec:
+  replicas: 10
   selector:
     matchLabels:
       app: calc
