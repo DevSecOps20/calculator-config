@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: calc
-        image: nginx:stable
+        image: gadjo;sanga
         resources:
           requests:
             cpu: "100m"
