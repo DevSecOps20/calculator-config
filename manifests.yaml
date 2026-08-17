@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: calc
 spec:
-  replicas: 3
   selector:
     matchLabels:
       app: calc
@@ -60,7 +59,7 @@ spec:
     apiVersion: apps/v1
     kind: Deployment
     name: calc
-  minReplicas: 3
+  minReplicas: 2
   maxReplicas: 10
   metrics:
   - type: Resource
